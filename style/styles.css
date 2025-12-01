@@ -1,0 +1,23 @@
+body {
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(2, 72, 86);
+    padding: 10px 10px;
+    
+}
+
+.logo img{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
