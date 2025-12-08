@@ -2,12 +2,14 @@ body {
     background-color: #121212;
     color: white;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
+    overflow: hidden;
 }
 
 .navigation{
     background-color: rgb(2, 72, 86);
     padding: 10px 10px;
+    width: 100%;
 }
 
 .navContant{  
@@ -26,6 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .arrow i {
@@ -38,6 +41,7 @@ body {
     height: 3rem;
     width: auto;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .Search{
@@ -121,3 +125,72 @@ body {
     object-fit: cover;
     border-radius: 50%;
 }
+
+/*----Body----*/
+
+.main {
+    background-color: skyblue;
+    color: #121212;
+    display: flex;
+    height: calc(100vh - 80px);
+    gap: 0.5rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.leftSection{
+    width: 20rem;
+    background: #181818;
+    color: white;
+    border-radius: 8px;
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+    
+}
+
+.Middle{
+    flex: 1;
+    background: #38160d;
+    color: white;
+    border-radius: 8px;
+}
+
+.rightSection{
+    width: 20rem;
+   background: #181818;
+    color: white;
+    border-radius: 8px;
+}
+
+.divider {
+    width: 2px;
+    background: #333;
+}
+
+.library {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.createBox{
+    display: flex;
+    gap: 1rem;
+    align-items: center; 
+    margin-right: 0.5rem;
+}
+
+.create{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
